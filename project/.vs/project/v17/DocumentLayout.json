@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\riki1\\OneDrive\\Desktop\\Asymmetry\\project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|C:\\Users\\riki1\\OneDrive\\Desktop\\Asymmetry\\project\\Source\\TitleScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|solutionrelative:Source\\TitleScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TitleScene.cpp",
+              "DocumentMoniker": "C:\\Users\\riki1\\OneDrive\\Desktop\\Asymmetry\\project\\Source\\TitleScene.cpp",
+              "RelativeDocumentMoniker": "Source\\TitleScene.cpp",
+              "ToolTip": "C:\\Users\\riki1\\OneDrive\\Desktop\\Asymmetry\\project\\Source\\TitleScene.cpp",
+              "RelativeToolTip": "Source\\TitleScene.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-21T23:40:59.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
