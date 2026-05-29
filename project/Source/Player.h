@@ -1,17 +1,15 @@
 #pragma once
 #include "../Library/GameObject.h"
-#include <vector>
-#include <memory>
+#include "Field.h"
 
-class Field : public GameObject
+class Player :public GameObject
 {
 public:
-	Field(int stage);
-	~Field();
+	Player();
+	~Player();
 	void Update() override;
 	void Draw() override;
 private:
-	int WallImage;
-
+	int PlayerImage;
 	int x, y;
 };
