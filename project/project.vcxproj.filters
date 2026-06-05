@@ -53,6 +53,12 @@
     <ClCompile Include="Source\csvReader.cpp">
       <Filter>Library</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Field.cpp">
+      <Filter>PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StageNumber.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Screen.h" />
@@ -123,6 +129,9 @@
     <ClInclude Include="Source\Field.h">
       <Filter>PlayScene</Filter>
     </ClInclude>
+    <ClInclude Include="Source\StageNumber.h">
+      <Filter>Common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Library">
@@ -139,6 +148,9 @@
     </Filter>
     <Filter Include="ImGui">
       <UniqueIdentifier>{a717257b-67b3-4bfa-834c-1e34032b33b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{984952c9-39a8-4283-bcf8-7c4860222637}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
