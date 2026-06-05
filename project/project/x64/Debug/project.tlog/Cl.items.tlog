@@ -12,6 +12,10 @@ C:\Users\student\Desktop\新しいフォルダー\project\Library\ObjectManager.
 C:\Users\student\Desktop\新しいフォルダー\project\Library\SceneManager.cpp;C:\Users\student\Desktop\新しいフォルダー\project\project\x64\Debug\SceneManager.obj
 C:\Users\student\Desktop\新しいフォルダー\project\Library\Time.cpp;C:\Users\student\Desktop\新しいフォルダー\project\project\x64\Debug\Time.obj
 C:\Users\student\Desktop\新しいフォルダー\project\Source\BootScene.cpp;C:\Users\student\Desktop\新しいフォルダー\project\project\x64\Debug\BootScene.obj
+C:\Users\student\Desktop\新しいフォルダー\project\Source\csvReader.cpp;C:\Users\student\Desktop\新しいフォルダー\project\project\x64\Debug\csvReader.obj
+C:\Users\student\Desktop\新しいフォルダー\project\Source\Field.cpp;C:\Users\student\Desktop\新しいフォルダー\project\project\x64\Debug\Field.obj
+C:\Users\student\Desktop\新しいフォルダー\project\Source\Player.cpp;C:\Users\student\Desktop\新しいフォルダー\project\project\x64\Debug\Player.obj
 C:\Users\student\Desktop\新しいフォルダー\project\Source\PlayScene.cpp;C:\Users\student\Desktop\新しいフォルダー\project\project\x64\Debug\PlayScene.obj
 C:\Users\student\Desktop\新しいフォルダー\project\Source\SceneFactory.cpp;C:\Users\student\Desktop\新しいフォルダー\project\project\x64\Debug\SceneFactory.obj
+C:\Users\student\Desktop\新しいフォルダー\project\Source\StageNumber.cpp;C:\Users\student\Desktop\新しいフォルダー\project\project\x64\Debug\StageNumber.obj
 C:\Users\student\Desktop\新しいフォルダー\project\Source\TitleScene.cpp;C:\Users\student\Desktop\新しいフォルダー\project\project\x64\Debug\TitleScene.obj
