@@ -60,6 +60,44 @@ void Field::Draw()
 			}
 		}
 	}
+}
 
-	//DrawExtendGraph(x * 64, y * 64, x * 64 + 64, y * 64 + 64, WallImage, 1);
+int Field::HitCheckRight(int px, int py)
+{
+	int x = px / 64;
+	int y = py / 64;
+	if (maps[y][x] == 1)
+	{ // “–‚½‚Á‚Ä‚é 
+		return px % 64 + 1;
+	}
+	return 0;
+}
+
+int Field::HitCheckLeft(int px, int py)
+{
+	int x = px / 64;
+	int y = py / 64;
+	if (maps[y][x] == 1)
+	{ // “–‚½‚Á‚Ä‚é 
+		return px % 64 - 64;
+	}
+	return 0;
+}
+
+int Field::HitCheckUp(int px, int py)
+{
+	int x = px / 64;
+	int y = py / 64;
+	if (maps[y][x] == 1)
+		return 64 - py % 64;
+	return 0;
+}
+
+int Field::HitCheckDown(int px, int py)
+{
+	int x = px / 64;
+	int y = py / 64;
+	if (maps[y][x] == 1)
+		return py % 64 + 1;
+	return 0;
 }

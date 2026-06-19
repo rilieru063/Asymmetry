@@ -11,5 +11,5 @@ public:
 	void Draw() override;
 private:
 	int PlayerImage;
-	int x, y;
+	int px, py;
 };
