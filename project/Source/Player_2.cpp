@@ -1,19 +1,19 @@
-#include "Player.h"
+#include "Player_2.h"
 #include "Field.h"
 #include "../Library/Trigger.h"
 
-Player::Player(int x, int y)
+Player_2::Player_2(int x, int y)
 {
-	PlayerImage = LoadGraph("data/Image/Red_Player.png");
-	px = x;
-	py = y;
+    Player_2Image = LoadGraph("data/Image/Blue_Player.png");
+    px = x;
+    py = y;
 }
 
-Player::~Player()
+Player_2::~Player_2()
 {
 }
 
-void Player::Update()
+void Player_2::Update()
 {
     if (KeyTrigger::CheckTrigger(KEY_INPUT_W) ||
         KeyTrigger::CheckTrigger(KEY_INPUT_UP))
@@ -40,12 +40,12 @@ void Player::Update()
     }
 }
 
-void Player::Draw()
+void Player_2::Draw()
 {
-	DrawExtendGraph(px, py, px + 64, py + 64, PlayerImage, 1);
+    DrawExtendGraph(px, py, px + 64, py + 64, Player_2Image, 1);
 }
 
-void Player::Move(int dx, int dy)
+void Player_2::Move(int dx, int dy)
 {
     Field* field = FindGameObject<Field>();
 

@@ -2,6 +2,7 @@
 #include "Field.h"
 #include "CsvReader.h"
 #include "Player.h"
+#include "Player_2.h"
 #include "StageNumber.h"
 
 #include <vector>
@@ -41,6 +42,13 @@ Field::Field(int stage)
 			}
 		}
 	}
+	for (int y = 0; y < maps.size(); y++) {
+		for (int x = 0; x < maps[y].size(); x++) {
+			if (maps[y][x] == 3) {
+				new Player_2(x * 64, y * 64);
+			}
+		}
+	}
 }
 
 Field::~Field()
@@ -62,42 +70,17 @@ void Field::Draw()
 	}
 }
 
-int Field::HitCheckRight(int px, int py)
+int Field::HitCheck(int x, int y)
 {
-	int x = px / 64;
-	int y = py / 64;
-	if (maps[y][x] == 1)
-	{ // 当たってる 
-		return px % 64 + 1;
+	int tx = x / 64;
+	int ty = y / 64;
+
+	// マップ外に出ないようにする
+	if (tx < 0 || tx >= maps[0].size() ||
+		ty < 0 || ty >= maps.size())
+	{
+		return 1;   // マップ外は壁扱い
 	}
-	return 0;
-}
 
-int Field::HitCheckLeft(int px, int py)
-{
-	int x = px / 64;
-	int y = py / 64;
-	if (maps[y][x] == 1)
-	{ // 当たってる 
-		return px % 64 - 64;
-	}
-	return 0;
-}
-
-int Field::HitCheckUp(int px, int py)
-{
-	int x = px / 64;
-	int y = py / 64;
-	if (maps[y][x] == 1)
-		return 64 - py % 64;
-	return 0;
-}
-
-int Field::HitCheckDown(int px, int py)
-{
-	int x = px / 64;
-	int y = py / 64;
-	if (maps[y][x] == 1)
-		return py % 64 + 1;
-	return 0;
+	return maps[ty][tx];
 }
