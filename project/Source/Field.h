@@ -11,6 +11,7 @@ public:
 	void Update() override;
 	void Draw() override;
 
+	int HitCheck(int x, int y);
 	int HitCheckRight(int px, int py);
 	int HitCheckLeft(int px, int py);
 	int HitCheckUp(int px, int py);
