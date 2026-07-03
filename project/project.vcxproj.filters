@@ -65,9 +65,6 @@
     <ClCompile Include="Library\Trigger.cpp">
       <Filter>Library</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Player_2.cpp">
-      <Filter>PlayScene</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Screen.h" />
@@ -147,8 +144,8 @@
     <ClInclude Include="Library\Trigger.h">
       <Filter>Library</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Player_2.h">
-      <Filter>PlayScene</Filter>
+    <ClInclude Include="Source\Reset.h">
+      <Filter>Library</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
