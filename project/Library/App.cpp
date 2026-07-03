@@ -1,5 +1,6 @@
 #include "App.h"
 #include "SceneManager.h"
+#include "Trigger.h"
 #include "ObjectManager.h"
 #include "Time.h"
 #include <DxLib.h>
@@ -14,6 +15,7 @@ void AppInit()
 void AppUpdate()
 {
 	SceneManager::Update();
+	KeyTrigger::Update();
 	ObjectManager::Update();
 }
 

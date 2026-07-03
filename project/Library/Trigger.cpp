@@ -5,9 +5,8 @@
 
 namespace KeyBuffer
 {
-    static const float REPEAT_TIME = 0.5f;      //  キーリピート間隔(sec)
-
-    static bool triggerKeyBufferArray[0xff];    //  トリガーキーバッファ
+    static bool currentKey[0xff];
+    static bool previousKey[0xff];
 }
 
 
@@ -15,36 +14,28 @@ namespace KeyBuffer
 /***    KeyUtility  ***/
 /**********************/
 
+void KeyTrigger::Update()
+{
+    for (int i = 0; i < 0xff; i++)
+    {
+        KeyBuffer::previousKey[i] = KeyBuffer::currentKey[i];
+        KeyBuffer::currentKey[i] = (CheckHitKey(i) != 0);
+    }
+}
+
 //  キー関連処理の初期化
 void KeyTrigger::Init()
 {
     for (int i = 0; i < 0xff; i++)
     {
-        KeyBuffer::triggerKeyBufferArray[i] = false;
+        KeyBuffer::currentKey[i] = false;
+        KeyBuffer::previousKey[i] = false;
     }
 }
 
 //  キー入力のトリガー取得
 bool KeyTrigger::CheckTrigger(int keyCode)
 {
-    bool triggerFlag = false;
-
-    //  該当キーが押されている
-    if (CheckHitKey(keyCode) != 0)
-    {
-        //  前フレームで押されていなかった＝トリガー
-        if (!KeyBuffer::triggerKeyBufferArray[keyCode])
-        {
-            triggerFlag = true;
-        }
-        //キーバッファに登録
-        KeyBuffer::triggerKeyBufferArray[keyCode] = true;
-    }
-    else
-    {
-        //キーバッファに登録
-        KeyBuffer::triggerKeyBufferArray[keyCode] = false;
-    }
-
-    return triggerFlag;
+    return KeyBuffer::currentKey[keyCode] &&
+        !KeyBuffer::previousKey[keyCode];
 }

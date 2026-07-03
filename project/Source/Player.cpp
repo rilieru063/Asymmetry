@@ -2,9 +2,9 @@
 #include "Field.h"
 #include "../Library/Trigger.h"
 
-Player::Player(int x, int y)
+Player::Player(int x, int y,int Image)
 {
-	PlayerImage = LoadGraph("data/Image/Red_Player.png");
+	PlayerImage = Image;
 	px = x;
 	py = y;
 }

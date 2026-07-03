@@ -5,7 +5,7 @@
 class Player :public GameObject
 {
 public:
-	Player(int x, int y);
+	Player(int x, int y,int Image);
 	~Player();
 	void Update() override;
 	void Draw() override;

@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Reset.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|solutionrelative:Source\\Reset.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|solutionrelative:Source\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\BootScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|solutionrelative:Source\\BootScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Library\\Trigger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|solutionrelative:Library\\Trigger.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Library\\Trigger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|solutionrelative:Library\\Trigger.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -13,18 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|solutionrelative:Source\\Field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Player_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|solutionrelative:Source\\Player_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Player_2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|solutionrelative:Source\\Player_2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|solutionrelative:Source\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFAFCEE4-F6EA-4651-BA3F-DC3176CDD3A8}|project.vcxproj|C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Field.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -42,37 +46,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Player_2.cpp",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Player_2.cpp",
-              "RelativeDocumentMoniker": "Source\\Player_2.cpp",
-              "ToolTip": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Player_2.cpp",
-              "RelativeToolTip": "Source\\Player_2.cpp",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAIwCAAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-06-26T05:04:45.89Z",
+              "DocumentIndex": 0,
+              "Title": "Reset.h",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Reset.h",
+              "RelativeDocumentMoniker": "Source\\Reset.h",
+              "ToolTip": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Reset.h",
+              "RelativeToolTip": "Source\\Reset.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-07-03T05:35:06.109Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Player_2.h",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Player_2.h",
-              "RelativeDocumentMoniker": "Source\\Player_2.h",
-              "ToolTip": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Player_2.h",
-              "RelativeToolTip": "Source\\Player_2.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-06-26T05:01:50.15Z",
+              "Title": "Trigger.cpp",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Library\\Trigger.cpp",
+              "RelativeDocumentMoniker": "Library\\Trigger.cpp",
+              "ToolTip": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Library\\Trigger.cpp",
+              "RelativeToolTip": "Library\\Trigger.cpp",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-07-03T05:22:41.889Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Trigger.h",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Library\\Trigger.h",
+              "RelativeDocumentMoniker": "Library\\Trigger.h",
+              "ToolTip": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Library\\Trigger.h",
+              "RelativeToolTip": "Library\\Trigger.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-07-03T05:22:05.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BootScene.cpp",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\BootScene.cpp",
               "RelativeDocumentMoniker": "Source\\BootScene.cpp",
@@ -85,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "StageNumber.cpp",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\StageNumber.cpp",
               "RelativeDocumentMoniker": "Source\\StageNumber.cpp",
@@ -97,46 +114,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Player.h",
               "RelativeDocumentMoniker": "Source\\Player.h",
               "ToolTip": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Player.h",
               "RelativeToolTip": "Source\\Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-06-05T05:21:09.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Player.cpp",
               "RelativeDocumentMoniker": "Source\\Player.cpp",
               "ToolTip": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Player.cpp",
               "RelativeToolTip": "Source\\Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-05T05:21:16.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Field.cpp",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Field.cpp",
               "RelativeDocumentMoniker": "Source\\Field.cpp",
               "ToolTip": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Field.cpp",
               "RelativeToolTip": "Source\\Field.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-06-05T04:35:43.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Field.h",
               "DocumentMoniker": "C:\\Users\\student\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\project\\Source\\Field.h",
               "RelativeDocumentMoniker": "Source\\Field.h",
@@ -144,8 +161,7 @@
               "RelativeToolTip": "Source\\Field.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-22T05:29:01.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-22T05:29:01.777Z"
             }
           ]
         }

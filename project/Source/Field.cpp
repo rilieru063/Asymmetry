@@ -2,9 +2,7 @@
 #include "Field.h"
 #include "CsvReader.h"
 #include "Player.h"
-#include "Player_2.h"
 #include "StageNumber.h"
-
 #include <vector>
 #include <memory>
 #include <assert.h>
@@ -31,21 +29,23 @@ Field::Field(int stage)
 
 	WallImage = LoadGraph("data/Image/GrayWall.png");
 	assert(WallImage > 0);
+	int redImage = LoadGraph("data/Image/Red_Player.png");
+	int blueImage = LoadGraph("data/Image/Blue_Player.png");
 
 	x = 0;
 	y = 0;
 
 	for (int y = 0; y < maps.size(); y++) {
 		for (int x = 0; x < maps[y].size(); x++) {
-			if (maps[y][x] == 2) {
-				new Player(x * 64, y * 64);
-			}
-		}
-	}
-	for (int y = 0; y < maps.size(); y++) {
-		for (int x = 0; x < maps[y].size(); x++) {
-			if (maps[y][x] == 3) {
-				new Player_2(x * 64, y * 64);
+
+			switch (maps[y][x]) {
+			case 2:
+				new Player(x * 64, y * 64, redImage);
+				break;
+
+			case 3:
+				new Player(x * 64, y * 64, blueImage);
+				break;
 			}
 		}
 	}
