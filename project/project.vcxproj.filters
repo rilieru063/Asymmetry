@@ -65,6 +65,9 @@
     <ClCompile Include="Library\Trigger.cpp">
       <Filter>Library</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Reset.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Screen.h" />

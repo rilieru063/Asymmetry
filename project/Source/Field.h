@@ -18,6 +18,8 @@ public:
 	int HitCheckDown(int px, int py);
 private:
 	int WallImage;
+	int redImage;
+	int blueImage;
 
 	int x, y;
 };

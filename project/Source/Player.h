@@ -7,6 +7,8 @@ class Player :public GameObject
 public:
 	Player(int x, int y,int Image);
 	~Player();
+	//void Reset(int x,int y,int Image);
+	void Reset();
 	void Update() override;
 	void Draw() override;
 private:
@@ -14,4 +16,7 @@ private:
 
 	int PlayerImage;
 	int px, py;
+
+	int ResetPImage;
+	int ResetX, ResetY;
 };

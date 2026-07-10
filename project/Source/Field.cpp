@@ -2,7 +2,9 @@
 #include "Field.h"
 #include "CsvReader.h"
 #include "Player.h"
+#include "Reset.h"
 #include "StageNumber.h"
+#include "../Library/Trigger.h"
 #include <vector>
 #include <memory>
 #include <assert.h>
@@ -29,8 +31,8 @@ Field::Field(int stage)
 
 	WallImage = LoadGraph("data/Image/GrayWall.png");
 	assert(WallImage > 0);
-	int redImage = LoadGraph("data/Image/Red_Player.png");
-	int blueImage = LoadGraph("data/Image/Blue_Player.png");
+	redImage = LoadGraph("data/Image/Red_Player.png");
+	blueImage = LoadGraph("data/Image/Blue_Player.png");
 
 	x = 0;
 	y = 0;
@@ -57,6 +59,28 @@ Field::~Field()
 
 void Field::Update()
 {
+	Reset* reset = FindGameObject<Reset>();
+	if (KeyTrigger::CheckTrigger(KEY_INPUT_R)) {
+		reset->RESET();
+	}
+	/*{
+		auto objs = FindGameObjects<Player>();
+		for (auto obj : objs) {
+			for (int y = 0; y < maps.size(); y++) {
+				for (int x = 0; x < maps[y].size(); x++) {
+					switch (maps[y][x]) {
+					case 2:
+						obj->Reset(x * 64, y * 64, redImage);
+						break;
+
+					case 3:
+						obj->Reset(x * 64, y * 64, blueImage);
+						break;
+					}
+				}
+			}
+		}
+	}*/
 }
 
 void Field::Draw()

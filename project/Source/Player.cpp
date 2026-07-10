@@ -4,13 +4,22 @@
 
 Player::Player(int x, int y,int Image)
 {
-	PlayerImage = Image;
-	px = x;
-	py = y;
+	ResetPImage = Image;
+	ResetX = x;
+	ResetY = y;
+
+    Reset();
 }
 
 Player::~Player()
 {
+}
+
+void Player::Reset()
+{
+    px = ResetX;
+    py = ResetY;
+    PlayerImage = ResetPImage;
 }
 
 void Player::Update()
