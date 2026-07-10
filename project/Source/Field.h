@@ -20,6 +20,8 @@ private:
 	int WallImage;
 	int redImage;
 	int blueImage;
+	int redTImage;
+	int blueTImage;
 
 	int x, y;
 };

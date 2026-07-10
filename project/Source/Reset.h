@@ -1,5 +1,6 @@
 #pragma once
 #include "Player.h"
+#include "Key.h"
 #include "../Library/GameObject.h"
 
 class Reset :public GameObject
