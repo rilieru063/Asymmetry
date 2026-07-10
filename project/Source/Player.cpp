@@ -1,5 +1,8 @@
 #include "Player.h"
 #include "Field.h"
+#include "Key.h"
+#include "Goal.h"
+#include "StageNumber.h"
 #include "../Library/Trigger.h"
 
 Player::Player(int x, int y,int Image)
@@ -57,6 +60,8 @@ void Player::Draw()
 void Player::Move(int dx, int dy)
 {
     Field* field = FindGameObject<Field>();
+    StageNumber* sn = FindGameObject<StageNumber>();
+    
 
     int hit = field->HitCheck(px + dx, py + dy);
 
@@ -68,6 +73,24 @@ void Player::Move(int dx, int dy)
         break;
 
     case 1:     // •Ç
+        break;
+
+    case 8:     // redgoal
+        px += dx;
+        py += dy;
+        sn->Clear = true;
+        break;
+        
+    case 9:     // bluegoal
+        px += dx;
+        py += dy;
+        sn->Clear = true;
+        break;
+
+    case 10:    //Key
+        px += dx;
+        py += dy;
+
         break;
     }
 }
