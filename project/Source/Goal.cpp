@@ -1,4 +1,5 @@
 #include "Goal.h"
+#include "Key.h"
 
 Goal::Goal(int x, int y, int Image)
 {
@@ -13,6 +14,23 @@ Goal::~Goal()
 
 void Goal::Update()
 {
+    //auto keys = FindGameObjects<Key>();
+
+    //bool allGet = true;
+
+    //for (auto key : keys)
+    //{
+    //    if (!key->IsGet())
+    //    {
+    //        allGet = false;
+    //        break;
+    //    }
+    //}
+
+    //if (allGet)
+    //{
+    //    // ÉNÉäÉA
+    //}
 }
 
 void Goal::Draw()
