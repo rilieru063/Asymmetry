@@ -11,6 +11,8 @@ public:
 	void Update() override;
 	void Draw() override;
 
+	bool IsGoalIn() const { return GoalIn; }
+
 private:
 	void Move(int dx, int dy);
 
@@ -19,4 +21,6 @@ private:
 
 	int ResetPImage;
 	int ResetX, ResetY;
+
+	bool GoalIn;
 };

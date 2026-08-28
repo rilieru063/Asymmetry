@@ -30,5 +30,28 @@ void Key::Update()
 
 void Key::Draw()
 {
-	DrawExtendGraph(kx, ky, kx + 64, ky + 64, KeyImage, 1);
+    if (!KeyGet)
+    {
+        DrawExtendGraph(kx, ky, kx + 64, ky + 64, KeyImage, 1);
+    }
+}
+
+void Key::Get()
+{
+	KeyGet = true;
+}
+
+bool Key::IsGet() const
+{
+	return KeyGet;
+}
+
+int Key::GetX() const
+{
+	return kx;
+}
+
+int Key::GetY() const
+{
+	return ky;
 }

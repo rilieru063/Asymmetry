@@ -23,10 +23,14 @@ void Player::Reset()
     px = ResetX;
     py = ResetY;
     PlayerImage = ResetPImage;
+    GoalIn = false;
 }
 
 void Player::Update()
 {
+    if (GoalIn)
+        return;
+
     if (KeyTrigger::CheckTrigger(KEY_INPUT_W) ||
         KeyTrigger::CheckTrigger(KEY_INPUT_UP))
     {
@@ -75,22 +79,66 @@ void Player::Move(int dx, int dy)
     case 1:     // •Ç
         break;
 
-    case 8:     // redgoal
-        px += dx;
-        py += dy;
-        sn->Clear = true;
-        break;
-        
-    case 9:     // bluegoal
-        px += dx;
-        py += dy;
-        sn->Clear = true;
-        break;
+    case 8:
+    case 9:
+    {
+        auto keys = FindGameObjects<Key>();
 
-    case 10:    //Key
+        bool allKeyGet = true;
+
+        for (auto key : keys)
+        {
+            if (!key->IsGet())
+            {
+                allKeyGet = false;
+                break;
+            }
+        }
+
+        if (allKeyGet)
+        {
+            px += dx;
+            py += dy;
+            GoalIn = true;
+
+            auto players = FindGameObjects<Player>();
+
+            bool allGoalIn = true;
+
+            for (auto player : players)
+            {
+                if (!player->IsGoalIn())
+                {
+                    allGoalIn = false;
+                    break;
+                }
+            }
+
+            if (allGoalIn)
+            {
+                sn->Clear = true;
+            }
+        }
+
+        break;
+    }
+
+    case 6:
+    case 7:    //Key
         px += dx;
         py += dy;
 
+        {
+            auto keys = FindGameObjects<Key>();
+
+            for (auto key : keys)
+            {
+                if (key->GetX() == px && key->GetY() == py)
+                {
+                    key->Get();
+                }
+            }
+        }
         break;
     }
 }

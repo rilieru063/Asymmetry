@@ -14,23 +14,18 @@ Goal::~Goal()
 
 void Goal::Update()
 {
-    //auto keys = FindGameObjects<Key>();
+    auto keys = FindGameObjects<Key>();
 
-    //bool allGet = true;
+    bool allKeyGet = true;
 
-    //for (auto key : keys)
-    //{
-    //    if (!key->IsGet())
-    //    {
-    //        allGet = false;
-    //        break;
-    //    }
-    //}
-
-    //if (allGet)
-    //{
-    //    // ƒNƒŠƒA
-    //}
+    for (auto key : keys)
+    {
+        if (!key->IsGet())
+        {
+            allKeyGet = false;
+            break;
+        }
+    }
 }
 
 void Goal::Draw()
