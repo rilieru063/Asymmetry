@@ -18,6 +18,11 @@ public:
 
 	KeyType GetType() const { return type; }
 
+	void Get();
+	bool IsGet() const;
+	
+	int GetX() const;
+	int GetY() const;
 
 private:
 	int kx, ky;
