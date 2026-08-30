@@ -10,6 +10,7 @@
 # Precompiled Headers
 *.gch
 *.pch
+*.ipch
 
 # Linker files
 *.ilk
@@ -22,7 +23,6 @@
 *.dylib
 *.dll
 *.so.*
-
 
 # Fortran module files
 *.mod
@@ -67,3 +67,40 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+
+# ========================================
+# Visual Studio
+# ========================================
+
+# Visual Studio settings / cache
+.vs/
+
+# Visual Studio build directories
+**/x64/
+**/Debug/
+**/Release/
+
+# Visual Studio user settings
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio database / IntelliSense
+*.VC.db
+*.VC.db-*
+*.VC.opendb
+
+# Visual Studio build log / temporary files
+*.tlog
+*.recipe
+*.lastbuildstate
+*.idb
+
+# Visual Studio IntelliSense cache
+**/ipch/
+
+# Visual Studio document layout
+**/DocumentLayout.json
+**/DocumentLayout.backup.json
