@@ -1,4 +1,5 @@
 #include "TitleScene.h"
+#include "StageNumber.h"
 
 TitleScene::TitleScene()
 {
@@ -10,7 +11,9 @@ TitleScene::~TitleScene()
 
 void TitleScene::Update()
 {
+	StageNumber* sn = FindGameObject<StageNumber>();
 	if (CheckHitKey(KEY_INPUT_SPACE)) {
+		sn->stagenum = 0;
 		SceneManager::ChangeScene("PLAY");
 	}
 	if (CheckHitKey(KEY_INPUT_ESCAPE)) {

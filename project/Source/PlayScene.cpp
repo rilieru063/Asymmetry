@@ -1,9 +1,11 @@
 #include "PlayScene.h"
 #include "Field.h"
+#include "StageNumber.h"
 
 PlayScene::PlayScene()
 {
-	new Field(0);
+	StageNumber* sn = FindGameObject<StageNumber>();
+	new Field(sn->stagenum);
 }
 
 PlayScene::~PlayScene()
@@ -14,6 +16,9 @@ void PlayScene::Update()
 {
 	if (CheckHitKey(KEY_INPUT_T)) {
 		SceneManager::ChangeScene("TITLE");
+	}
+	if (CheckHitKey(KEY_INPUT_ESCAPE)) {
+		SceneManager::Exit();
 	}
 }
 
