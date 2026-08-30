@@ -68,9 +68,13 @@
     <ClCompile Include="Source\Reset.cpp">
       <Filter>Library</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Goal.cpp" />
-    <ClCompile Include="Source\Key.cpp" />
-    <ClCompile Include="GameClear.cpp">
+    <ClCompile Include="Source\Goal.cpp">
+      <Filter>PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Key.cpp">
+      <Filter>PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameClear.cpp">
       <Filter>ResultScene</Filter>
     </ClCompile>
   </ItemGroup>
@@ -155,9 +159,13 @@
     <ClInclude Include="Source\Reset.h">
       <Filter>Library</Filter>
     </ClInclude>
-    <ClInclude Include="Source\Goal.h" />
-    <ClInclude Include="Source\Key.h" />
-    <ClInclude Include="GameClear.h">
+    <ClInclude Include="Source\Goal.h">
+      <Filter>PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Key.h">
+      <Filter>PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameClear.h">
       <Filter>ResultScene</Filter>
     </ClInclude>
   </ItemGroup>
