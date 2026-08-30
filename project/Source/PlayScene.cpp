@@ -14,11 +14,15 @@ PlayScene::~PlayScene()
 
 void PlayScene::Update()
 {
+	StageNumber* sn = FindGameObject<StageNumber>();
 	if (CheckHitKey(KEY_INPUT_T)) {
 		SceneManager::ChangeScene("TITLE");
 	}
 	if (CheckHitKey(KEY_INPUT_ESCAPE)) {
 		SceneManager::Exit();
+	}
+	if (sn->Clear == true) {
+		SceneManager::ChangeScene("CLEAR");
 	}
 }
 
