@@ -68,6 +68,11 @@
     <ClCompile Include="Source\Reset.cpp">
       <Filter>Library</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Goal.cpp" />
+    <ClCompile Include="Source\Key.cpp" />
+    <ClCompile Include="GameClear.cpp">
+      <Filter>ResultScene</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Screen.h" />
@@ -150,6 +155,11 @@
     <ClInclude Include="Source\Reset.h">
       <Filter>Library</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Goal.h" />
+    <ClInclude Include="Source\Key.h" />
+    <ClInclude Include="GameClear.h">
+      <Filter>ResultScene</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Library">
@@ -169,6 +179,9 @@
     </Filter>
     <Filter Include="Common">
       <UniqueIdentifier>{984952c9-39a8-4283-bcf8-7c4860222637}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResultScene">
+      <UniqueIdentifier>{eab3ae9d-af46-4c89-8c1f-7d7947946545}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
