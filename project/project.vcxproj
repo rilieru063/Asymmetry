@@ -135,7 +135,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="GameClear.h" />
     <ClInclude Include="ImGui\imconfig.h" />
     <ClInclude Include="ImGui\imgui.h" />
     <ClInclude Include="ImGui\imgui_impl_dx11.h" />
@@ -157,6 +156,7 @@
     <ClInclude Include="Source\BootScene.h" />
     <ClInclude Include="Source\CsvReader.h" />
     <ClInclude Include="Source\Field.h" />
+    <ClInclude Include="Source\GameClear.h" />
     <ClInclude Include="Source\Goal.h" />
     <ClInclude Include="Source\Key.h" />
     <ClInclude Include="Source\Player.h" />
@@ -168,7 +168,6 @@
     <ClInclude Include="Source\TitleScene.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GameClear.cpp" />
     <ClCompile Include="ImGui\imgui.cpp" />
     <ClCompile Include="ImGui\imgui_draw.cpp" />
     <ClCompile Include="ImGui\imgui_impl_dx11.cpp" />
@@ -186,6 +185,7 @@
     <ClCompile Include="Source\BootScene.cpp" />
     <ClCompile Include="Source\csvReader.cpp" />
     <ClCompile Include="Source\Field.cpp" />
+    <ClCompile Include="Source\GameClear.cpp" />
     <ClCompile Include="Source\Goal.cpp" />
     <ClCompile Include="Source\Key.cpp" />
     <ClCompile Include="Source\Player.cpp" />
