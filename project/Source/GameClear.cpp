@@ -1,6 +1,5 @@
 #include "GameClear.h"
 #include "StageNumber.h"
-#include "Screen.h"
 
 #include "../Library/Trigger.h"
 #include <cstdio>
@@ -17,11 +16,14 @@ void GameClear::Update()
 {
     StageNumber* sn = FindGameObject<StageNumber>();
 
-    if (CheckHitKey(KEY_INPUT_ESCAPE))
+    if (CheckHitKey(KEY_INPUT_T))
     {
         SceneManager::Exit();
     }
-
+    if (KeyTrigger::CheckTrigger(KEY_INPUT_ESCAPE))
+    {
+        SceneManager::ChangeScene("TITLE");
+    }
     if (KeyTrigger::CheckTrigger(KEY_INPUT_SPACE))
     {
         int nextStage = sn->stagenum + 1;
@@ -52,5 +54,9 @@ void GameClear::Update()
 
 void GameClear::Draw()
 {
-	DrawString(Screen::WIDTH / 2, Screen::HEIGHT / 2, "PressSpace", GetColor(255, 255, 255));
+    DrawExtendString(660, 300, 5, 5, "StageClear!", GetColor(255, 255, 255));
+    DrawExtendString(300, 800, 3, 3, "Press the ESCAPE", GetColor(255, 255, 255));
+    DrawExtendString(350, 860, 3, 3, "to the Title", GetColor(255, 255, 255));
+    DrawExtendString(1100, 800, 3, 3, "Press the SPACE", GetColor(255, 255, 255));
+    DrawExtendString(1085, 860, 3, 3, "to the NextStage", GetColor(255, 255, 255));
 }

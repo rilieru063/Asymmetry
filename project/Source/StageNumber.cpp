@@ -13,7 +13,7 @@ StageNumber::StageNumber()
 
 void StageNumber::Update()
 {
-	if (Screen::DEVELOPER_MODE == TRUE) {
+	if (CheckHitKey(KEY_INPUT_LCONTROL)) {
 		if (CheckHitKey(KEY_INPUT_P)) {
 			Clear = true;
 		}
