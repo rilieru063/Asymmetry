@@ -77,7 +77,6 @@ Testing/
 .vs/
 
 # Visual Studio build directories
-**/x64/
 **/Debug/
 **/Release/
 
